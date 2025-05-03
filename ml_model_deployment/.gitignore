@@ -1,0 +1,95 @@
+others/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore all Jupyter Notebook files (Uncomment if you don't want to track any .ipynb files)
+# *.ipynb
+
+# Ignore virtual environment folders
+venv/
+.env/
+env/
+.venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+*.pyo
+
+# Ignore dataset and large files
+*.tsv
+*.json
+*.xls*
+*.h5
+*.hdf5
+*.sqlite
+*.db
+
+
+# Ignore ML model checkpoints and logs
+checkpoints/
+logs/
+*.ckpt
+*.log
+*.pth
+*.pt
+*.tflite
+*.onnx
+*.pb
+
+# Ignore Conda environment files
+*.conda
+*.yaml
+
+# Ignore temporary and backup files
+*.bak
+*.swp
+*.swo
+*.temp
+*.~*
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.iml
+
+# Ignore TensorFlow or PyTorch logs
+events.out.tfevents*
+
+# Ignore Google Colab environment files
+.colab/
+
+# Ignore Docker and build-related files
+build/
+dist/
+*.egg-info/
+*.manifest
+
+# Ignore Jupyter Notebook auto-generated outputs (Optional)
+*.nbconvert.ipynb
+
+# Ignore compiled files
+*.o
+*.a
+*.out
+*.class
+
+# Ignore large image/video/audio files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mp3
+*.wav
+*.zip
+*.tar.gz
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+kaggle.json
+.env
+*.txt
